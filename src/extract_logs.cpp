@@ -41,7 +41,7 @@ void extractLogs(const std::string& logFile, const std::string& date) {
         return;
     }
 
-    std::string outputDir = "output";
+    std::string outputDir = "../output";
     if (!fs::exists(outputDir)) {
         fs::create_directory(outputDir);
     }
