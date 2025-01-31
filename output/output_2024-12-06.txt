@@ -1,0 +1,3 @@
+2024-12-06 13:00:00 INFO Scheduled task started
+2024-12-06 13:15:50 WARN High CPU usage detected
+2024-12-06 14:40:18 INFO File system check completed
