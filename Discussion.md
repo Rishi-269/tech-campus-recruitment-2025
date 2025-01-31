@@ -40,6 +40,8 @@ The extracted logs will be saved in the `output` folder. If this folder does not
 
 This solution utilizes **binary search** to find the lower bound of the given date in a sorted log file. Since the log entries are sorted by date, binary search allows us to quickly locate the first occurrence of the specified date.
 
+If not sorted we can sort the file once if we need to query fromm that file again and again as it will be one time effort to sort the file
+
 ### Time Complexity
 
 - **Binary Search:** `O(log n)`, where `n` is the total number of log entries.
